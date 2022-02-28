@@ -1,1 +1,1 @@
-# compbio_sem_project
+Here is the repo for my Compbio semester project. I am making a reproducible copy of the paper "Prioritizing and characterizing functionally relevant genes across human tissues" In this repository is the data, code, and other resources I use in my project.
