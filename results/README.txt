@@ -1,0 +1,7 @@
+Here is some information on each Jupyter notebook in my results folder. Each one has some text in the notebook, but this README serves as a general overview.
+
+1. first_go_compbio_project_scratch.ipynb served as a jumping off point to "mess around" with the data provided in the paper and see how far I could get without going into too much detail. I also wanted to see what tools were required for recreating each figure and if I needed to learn anything new. I came up with preliminary results in this notebook and it was a good place for me to take into the other notebooks and go into more detail.
+
+2. fig_3_mess_around.ipynb took the preliminary work I did in notebook 1 and went into more detail and tried to get closer to the actual figure. Notebook 1 plotted the raw values found in the Probability column of fig_3_data_fugue_scores_for_six_tissues.csv but this notebook plotted rank transformed values corresponding to genes labeled P in the "Label" column. Additionally, a bootstrapping technique of generating the mean percent rank for each tissue (randomly selecting 80% of the genes in a given tissue 100 or 1000 times and plotting the mean percent rank values) was performed to get closer to the orginal figure.
+
+3. fig_4_mess_around.ipynb did similar work as notebook 2, taking the first work from notebook 1 and going into more detail and becoming more accurate. In this notebook, Jaccard similarity scores for each tissue were more accurately calculated and the phylogenetic tree was produced using Seaborn. 
